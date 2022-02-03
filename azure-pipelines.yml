@@ -2,7 +2,7 @@
 - task: CmdLine@2
   inputs:
     script: |
-      javac add.java
+      javac add
       java AddTwoNumbers
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
