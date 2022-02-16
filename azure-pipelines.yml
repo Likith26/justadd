@@ -5,7 +5,12 @@
 
 trigger:
 - main
-
+- task: CmdLine@2
+  inputs:
+    script: |
+      javac add.java
+      
+      java add
 pool:
   vmImage: ubuntu-latest
 
